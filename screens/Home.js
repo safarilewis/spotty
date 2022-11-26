@@ -15,8 +15,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   text: {
-    color: 'black',
-    fontWeight: 'bold',
-    fontSize: 20
+    color: "black",
+    fontWeight: "bold",
+    fontSize: 20,
   },
 });
