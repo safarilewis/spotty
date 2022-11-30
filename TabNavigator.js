@@ -3,8 +3,8 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Ionicons from '@expo/vector-icons/Ionicons'
 
 //Importing screens from the screens directory
-import Home from "../../screens/Home";
-import About from "../../screens/About";
+import Home from "./screens/Home";
+import Playlist from "./screens/Playlist";
 
 const Tab = createBottomTabNavigator();
 
@@ -20,18 +20,18 @@ export default function BottomTabs() {
             iconName = focused
             ? 'home'
             : 'home-outline'
-          }else if (route.name === 'About') {
-            iconName = focused ? 'ios-list' : 'ios-list-outline';
+          }else if (route.name === 'Playlists') {
+            iconName = focused ? 'play-sharp' : 'play-outline';
           }
 
           return <Ionicons name={iconName} size={size} color={color} />;
         },
-        tabBarActiveTintColor: 'red',
+        tabBarActiveTintColor: 'green',
         tabBarInactiveTintColor: 'gray',
       })}
     >
       <Tab.Screen name="Home" component={Home} />
-      <Tab.Screen name="About" component={About} />
+      <Tab.Screen name="Playlists" component={Playlist} />
     </Tab.Navigator>
   );
 }

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "fetch",
-    "slug": "fetch",
+    "name": "spotty",
+    "slug": "spotty",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

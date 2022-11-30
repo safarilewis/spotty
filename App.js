@@ -1,13 +1,17 @@
 
 
 import { NavigationContainer } from "@react-navigation/native";
-import BottomTabs from "./src/components/BottomTabs";
+import AppNavigation from "./AppNavigation";
+import SplashScreen from "./screens/SplashScreen";
+import BottomTabs from "./TabNavigator";
 
 
 export default function App() {
-  return (
-    <NavigationContainer>
-      <BottomTabs/>
-    </NavigationContainer>
-  );
+  return <AppNavigation/>
+  // (
+  //   <NavigationContainer>
+  //     <AppNavigation/>
+  //     {/* <BottomTabs/> */}
+  //   </NavigationContainer>
+  // );
 }
