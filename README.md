@@ -1,7 +1,8 @@
-# React Native App
+# Spotty
 
-## To need to have react native and expo installed on your laptop
-### If you don't have expo, after installing node v16.18.1 run: 'npm install -g expo-cli'
+## Requirements:
+### - Nodejs installed
+### - expo global cli
 
 ## Installing dependencies
 
