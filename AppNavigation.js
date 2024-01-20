@@ -15,7 +15,7 @@ export default function AppNavigation() {
         <Stack.Navigator screenOptions={screenOptions}>
             <Stack.Screen name="SplashScreen" component={SplashScreen} />
             <Stack.Screen name="Auth" component={AuthStack}/>
-            <Stack.Screen name="TabNavigator" component={TabNavigator}/>
+            <Stack.Screen name="HomeTab" component={TabNavigator}/>
         </Stack.Navigator>
     </NavigationContainer>
   )
