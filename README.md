@@ -3,27 +3,30 @@
 
 Spotify Client App built with React Native.
 
+## Features
+ - View your top artists.
+ - View and Listen to your top songs.
+ - Manage your Playlists
+ - Control who you follow
+   
 ## Requirements
 You will need to have the following already installed to run the project:
-
 - NodeJS
+- expo
+
+You will also need a Spotify Developer Account.
 
 ## Running the Project
-
-Once in the project directory, you can run:
-
-### `npm install`
-- This will install all required dependencies to run the project
-
-### `npx expo start`
-- This will start the application on a local development server and can be accessed through the Expo Go App.
-
-
-[1]: https://www.npmjs.com/package/axios
-[2]: https://shrtco.de/docs
+1. Create an App in your Spotify Developer Dashboard [App Creation Tutorial](https://developer.spotify.com/documentation/web-api/tutorials/getting-started#create-an-app).
+2. Clone the project from [Link](https://github.com/safarilewis/spotty.git).
+3. Once in the project directory, create a .env file with the following variable:
+     - `CLIENT_ID='Your Spotify App Client ID'`
+4. Run `npm install` to install all required dependencies.
+5. Run `npx expo start` to start a local development server.
+6. Add the App Deep Link provided by the QR Code to your Spotify App's Redirect URIs.
+    - It looks something like: `exp://127.0.0.1:8082`
 
 # Author
-
 The author of this project is Lewis Safari.
 
  You can find me here at:
