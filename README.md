@@ -27,7 +27,7 @@ You will also need a Spotify Developer Account.
     - It looks something like: `exp://127.0.0.1:8082`
 
 # Author
-The author of this project is Lewis Safari.
+The author of this project is [Lewis Safari](https://github.com/safarilewis).
 
  You can find me here at:
 [Github](https://github.com/safarilewis)
